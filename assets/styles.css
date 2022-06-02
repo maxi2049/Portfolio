@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.cabecera,
+.contacto {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(2, 2, 59);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.menu .activo {
+    color:rgb(105, 205, 245);
+}
+
+.menu a:hover {
+    background-color: rgb(105, 205, 245);
+    color: rgb(2, 2, 59);
+    font-weight: bold;
+    transition: ease-in .3s;
+}
+
+.etiqueta {
+    margin-top: -8px;
+}
+
+.etiqueta span{
+    color:rgb(105, 205, 245);
+}
+
+.principal {
+    margin: 0 auto;
+    width: 75vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.descargar-cv {
+    padding: 10px 20px;
+    background-color: rgb(105, 205, 245);
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(105, 205, 245, .90);
+}
+
+.descargar-cv:hover {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.principal img {
+    width: 350px;
+    border: 5px solid rgb(105, 205, 245);
+}
+
+.divisor {
+    height: 5px;
+    width: 75px;
+    background-color: rgb(105, 205, 245);
+}
+
+.contacto {
+    padding: 30px;
+}
+
+.contacto-cabecera h2 {
+    font-size: 2em;
+}
+
+.contacto-principal {
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 15px;
+}
+
+.formulario input {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.formulario textarea {
+    height: 250px;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.btn-enviar {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(105, 205, 245);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(105, 205, 245, .90);
+}
+
+.btn-enviar:hover {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 130px;
+    background-color: rgb(105, 205, 245);
+}
+
+.footer-principal h2{
+    font-size: 2em;
+}
+
+.footer-principal h5, .redes i{
+    font-size: 1em;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 5px;
+}
