@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
 
 body {
@@ -11,11 +12,10 @@ body {
     overflow-x: hidden;
 }
 
-.cabecera,
-.contacto {
+.cabecera, .contacto {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(2, 2, 59);
+    background-color: #0c0d0e;
     color: #fff;
 }
 
@@ -69,6 +69,10 @@ body {
     align-items: center;
 }
 
+.contenido {
+    margin: 25px;
+}
+
 .descargar-cv {
     padding: 10px 20px;
     background-color: rgb(105, 205, 245);
@@ -86,7 +90,7 @@ body {
 
 .principal img {
     width: 350px;
-    border: 5px solid rgb(105, 205, 245);
+    border-radius: 200px;
 }
 
 .divisor {
@@ -136,7 +140,7 @@ body {
 
 .btn-enviar {
     padding: 10px 20px;
-    margin: 5px;
+    margin: 10px;
     border: none;
     text-transform: uppercase;
     background-color: rgb(105, 205, 245);
@@ -173,4 +177,9 @@ body {
     justify-content: space-evenly;
     width: 300px;
     margin-top: 5px;
+}
+
+.redes i{
+    cursor: pointer;
+    color: black;
 }
